@@ -1,0 +1,39 @@
+title = 'Yuki Kishimoto'
+theme = "hugo-coder"
+baseURL = 'https://yukikishimoto.com'
+languageCode = 'en-us'
+
+[params]
+  author = "Yuki Kishimoto"
+  info = ["`🦀 Rust developer 🦀`", "`Working on Bitcoin and Nostr`"]
+  description = "Yuki Kishimoto's personal website."
+  keywords = "developer,personal"
+  avatarurl = "images/avatar.png"
+  colorScheme = "light"
+  hidecolorschemetoggle = true
+  disableDefaultJsScripts = true
+
+# Social links
+[[params.social]]
+  name = "Github"
+  #icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/yukibtc/"
+
+[[params.social]]
+  name = "Nostr"
+  #icon = "fa fa-twitter fa-2x"
+  weight = 2
+  url = "https://nostr.band/npub1drvpzev3syqt0kjrls50050uzf25gehpz9vgdw08hvex7e0vgfeq0eseet"
+
+[[params.social]]
+  name = "Email"
+  #icon = "fa fa-github fa-2x"
+  weight = 3
+  url = "mailto:yukikishimoto@protonmail.com"
+
+# Menu links
+[[menu.main]]
+  name = "Contacts"
+  weight = 1
+  url = "contacts/"
