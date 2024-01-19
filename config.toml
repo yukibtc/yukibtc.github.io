@@ -5,10 +5,14 @@ languageCode = 'en-us'
 
 [params]
   author = "Yuki Kishimoto"
-  info = ["`🦀 Rust developer 🦀`", "`Working on Bitcoin and Nostr`"]
+  info = [
+    "`🦀 Rust developer 🦀`", 
+    "`Working on Bitcoin and Nostr`", 
+    "`86F3 105A DFA8 AB58 7268 DCD7 8D3D CD04 2496 19D1`",
+  ]
   description = "Yuki Kishimoto's personal website."
   keywords = "developer,personal"
-  avatarurl = "images/avatar.png"
+  avatarurl = "images/avatar.jpg"
   colorScheme = "light"
   hidecolorschemetoggle = true
   disableDefaultJsScripts = true
@@ -31,6 +35,11 @@ languageCode = 'en-us'
   #icon = "fa fa-github fa-2x"
   weight = 3
   url = "mailto:yukikishimoto@protonmail.com"
+
+[[params.social]]
+  name = "PGP"
+  weight = 4
+  url = "PGP.asc"
 
 # Menu links
 [[menu.main]]
