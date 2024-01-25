@@ -25,10 +25,9 @@ languageCode = 'en-us'
   url = "https://github.com/yukibtc/"
 
 [[params.social]]
-  name = "Nostr"
-  #icon = "fa fa-twitter fa-2x"
+  name = "PGP"
   weight = 2
-  url = "https://nostr.band/npub1drvpzev3syqt0kjrls50050uzf25gehpz9vgdw08hvex7e0vgfeq0eseet"
+  url = "PGP.asc"
 
 [[params.social]]
   name = "Email"
@@ -37,12 +36,16 @@ languageCode = 'en-us'
   url = "mailto:yukikishimoto@protonmail.com"
 
 [[params.social]]
-  name = "PGP"
+  name = "Nostr"
   weight = 4
-  url = "PGP.asc"
+  url = "https://nostr.band/npub1drvpzev3syqt0kjrls50050uzf25gehpz9vgdw08hvex7e0vgfeq0eseet"
 
-# Menu links
-[[menu.main]]
-  name = "Contacts"
-  weight = 1
-  url = "contacts/"
+[[params.social]]
+  name = "SimpleX"
+  weight = 5
+  url = "https://simplex.chat/contact#/?v=1-4&smp=smp%3A%2F%2F1OwYGt-yqOfe2IyVHhxz3ohqo3aCCMjtB-8wn4X_aoY%3D%40smp11.simplex.im%2FFi92VHt-Kq5GCBxQJm-VbfmspJCr-ZNP%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEA9jPaDQuDoaklq6ciXKnpH6x6RwkMvvHhefNJbaf5TH4%253D%26srv%3D6ioorbm6i3yxmuoezrhjk6f6qgkc4syabh7m3so74xunb5nzr4pwgfqd.onion"
+
+[[params.social]]
+  name = "Matrix"
+  weight = 6
+  url = "https://matrix.to/#/@yukikishimoto:matrix.org"
