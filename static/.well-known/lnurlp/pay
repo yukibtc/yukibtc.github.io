@@ -1,10 +1,10 @@
 {
-  "callback": "https://minibits.cash/.well-known/lnurlp/yuki",
-  "minSendable": 1000,
-  "maxSendable": 1000000000,
-  "metadata": "[[\"text/plain\",\"Pay to yuki@minibits.cash with Lightning. Receiver will receive ecash into Minibits Wallet.\"],[\"text/identifier\",\"yuki@minibits.cash\"]]",
-  "commentAllowed": 100,
   "allowsNostr": true,
-  "nostrPubkey": "beeb48407a6f087ea8f76dc384a5d88c67ced9bd9fb0cdba90930210df3d92e7",
+  "minSendable": 1000,
+  "maxSendable": 100000000000,
+  "metadata": "[[\"text/plain\",\"Paying yuki@coinos.io\"],[\"text/identifier\",\"yuki@coinos.io\"]]",
+  "nostrPubkey": "ba80990666ef0b6f4ba5059347beb13242921e54669e680064ca755256a1e3a6",
+  "commentAllowed": 512,
+  "callback": "https://coinos.io/api/lnurl/11cdcfd5-fdf2-497f-b909-7f256c5ab171",
   "tag": "payRequest"
 }
